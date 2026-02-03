@@ -47,7 +47,7 @@ const Uusarios = () => {
       </div>
 
       {/* TABLA */}
-      <div className="mt-4 text-xs">
+      <div className="mt-4 text-xs ">
         <UsersTable users={filteredUsers} />
       </div>
       
