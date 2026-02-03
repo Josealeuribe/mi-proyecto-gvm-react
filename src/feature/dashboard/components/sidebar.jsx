@@ -128,7 +128,7 @@ export default function Sidebar() {
                     to={item.path}
                     className={({ isActive }) =>
                       `flex items-center px-4 py-3 rounded-lg mb-1 transition gap-3
-                       ${isActive ? "bg-[rgb(8_123_203)] text-white" : "text-gray-700 hover:bg-emerald-200"}`
+                        ${isActive ? "bg-[rgb(8_123_203)] text-white" : "text-gray-700 hover:bg-emerald-200"}`
                     }
                   >
                     <Icon size={20} />
