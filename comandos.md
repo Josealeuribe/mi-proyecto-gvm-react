@@ -13,3 +13,4 @@
 || git checkout -b josealeuribe
 || git branch
 git push -u origin josaleuribe
+|| git push origin josealeuribe
