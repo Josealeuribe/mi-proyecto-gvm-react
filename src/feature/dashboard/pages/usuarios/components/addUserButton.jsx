@@ -1,9 +1,14 @@
+import React from "react";
 import { Plus } from "lucide-react";
 
-const AddUserButton = () => {
+const AddUserButton = ({ onClick }) => {
   return (
-    <button className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
-      <Plus className="w-4 h-4" />
+    <button
+      type="button"
+      onClick={onClick}
+      className="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
+    >
+      <Plus size={16} />
       Nuevo Usuario
     </button>
   );
