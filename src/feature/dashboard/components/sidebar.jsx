@@ -128,7 +128,7 @@ export default function Sidebar() {
                     to={item.path}
                     className={({ isActive }) =>
                       `flex items-center px-4 py-3 rounded-lg mb-1 transition gap-3
-                        ${isActive ? "bg-[rgb(8_123_203)] text-white" : "text-gray-700 hover:bg-emerald-200"}`
+                        ${isActive ? "bg-blue-600 text-white" : "text-gray-700 hover:bg-emerald-200"}`
                     }
                   >
                     <Icon size={20} />
@@ -150,7 +150,7 @@ export default function Sidebar() {
                               to={child.path}
                               className={({ isActive }) =>
                                 `flex items-center gap-2 px-4 py-2 text-sm rounded-lg
-                                 ${isActive ? "bg-[rgb(8_123_203)] text-white" : "text-gray-600 hover:bg-emerald-200"}`
+                                 ${isActive ? "bg-blue-600 text-white" : "text-gray-600 hover:bg-emerald-200"}`
                               }
                             >
                               <ChildIcon size={16} />
@@ -172,7 +172,7 @@ export default function Sidebar() {
                               to={child.path}
                               className={({ isActive }) =>
                                 `flex items-center gap-2 px-4 py-2 text-sm rounded-lg mb-1
-                                 ${isActive ? "bg-[rgb(8_123_203)] text-white" : "text-gray-600 hover:bg-emerald-200"}`
+                                 ${isActive ? "bg-blue-600 text-white" : "text-gray-600 hover:bg-emerald-200"}`
                               }
                             >
                               <ChildIcon size={16} />
