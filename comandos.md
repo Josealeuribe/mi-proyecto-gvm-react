@@ -11,3 +11,6 @@
 || gh auth login
 || gh repo create mi-proyecto-java --public, --source=. --push
 || git checkout -b josealeuribe
+|| git branch
+|| git push -u origin josaleuribe
+

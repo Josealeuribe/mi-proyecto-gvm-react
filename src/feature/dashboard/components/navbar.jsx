@@ -8,7 +8,7 @@ import {
 } from 'lucide-react';
 export const NavbarHome = () => {
   return (
-    <header className="bg-[rgb(8_123_203)] shadow-sm border-b border-gray-200">
+    <header className="bg-blue-600 shadow-sm border-b border-gray-200">
           <div className="flex items-center justify-between px-6 py-4">
             {/* Left side - Menu toggle and breadcrumb */}
             <div className="flex items-center space-x-4">
